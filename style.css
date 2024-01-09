@@ -1,9 +1,39 @@
-* {
-    color:white;
-    background-color: black;
-    font-family: Monospace;
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightskyblue;
 }
-img {
-    height: auto;
-    width: 700px;
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.header {
+    background-color: lightblue;
+    text-align: center;
+}
+.caption {
+    display:block;
+    text-align: justify;
+    text-justify: inter-word;
+    max-height: 600px;
+}
+.content {
+    display: grid;
+    grid-template-columns: 33% 33% 32%;
+    column-gap: 25px;
+    text-align: center;
+    object-fit: contain;
+    background-color: skyblue;
+    position: relative;
+}
+.leftbox {
+    grid-column: 1;
+    
+}
+.middlebox {
+    grid-column: 2;
+    
+}
+.rightbox {
+    grid-column: 3;
+    
 }
